@@ -1,0 +1,129 @@
+#banner{
+    background-image: url("assets/img/bg.jpg"); 
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+#banner::after{
+    content: "";
+    background: rgba(28, 121, 71, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    filter: brightness(80%);
+}
+
+#banner .colorize .navbar{
+    z-index: 2;
+    margin-top: -50px;
+}
+
+#banner .colorize .navbar a{
+    color: white;
+    word-spacing: 2px;
+}
+
+
+.container header .row .col-2{
+    z-index: 2;
+}
+
+.container header .row .col-2 img{
+    width: 100px;
+    height: 100px;
+}
+.container .text{
+    z-index: 2;
+    position: relative;
+    z-index: 2;
+}
+
+.misi{
+    margin-left: 300px;
+}
+
+/* Layanan Kami */
+.lsmm{
+    height: 160px;
+}
+
+.leo{
+    height: 160px;
+}
+
+.pkp{
+    height: 160px;
+}
+
+.lo{
+    height: 160px;
+}
+
+.ptp{
+    height: 160px;
+}
+
+.kpda{
+    height: 160px;
+}
+
+.container .row .lib-event{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16pt;
+}
+
+/* Background layanan kami */
+.rectangle-bg{
+    background: rgb(96, 194, 55);
+    z-index: 0;
+}
+
+/* Testimoni carousel */
+.container .row .card-title{
+    margin-left: 20px;
+}
+
+.container .row .card-text{
+    margin-left: 20px;
+}
+.container .row .card-img{
+    width: 200px; 
+    height: 250px;
+}
+.container .carousel-item{
+    margin-left: 270px;
+}
+
+.container .carousel-item .card{
+    border: none !important;
+}
+
+/* Footer Background */
+.footer-background{
+    background: url("assets/img/bg.jpg");
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.footer-background::after{
+    content: "";
+    background: rgba(28, 121, 71, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    filter: brightness(80%);
+}
+
+.footer-background .footer-texts{
+    z-index: 2;
+}

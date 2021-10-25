@@ -1,0 +1,1 @@
+untuk akses web editor nya bisa akses di landing_page/redirected.php
